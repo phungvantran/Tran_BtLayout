@@ -4,7 +4,7 @@ using System.Text;
 
 namespace BTLayout02
 {
-    class Nation
+   public class Nation
     {
         public string name { get; set; }
         public string ms { get; set; }

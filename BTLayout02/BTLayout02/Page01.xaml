@@ -15,7 +15,7 @@
                     </StackLayout>
                 </Frame>
 
-                <ListView x:Name="listview" RowHeight="85" >
+                <ListView x:Name="listview" RowHeight="85" ItemSelected="listview_ItemSelected">
                     <ListView.ItemTemplate>
                         <DataTemplate>
                             <ViewCell>

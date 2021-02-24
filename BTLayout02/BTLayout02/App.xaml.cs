@@ -10,7 +10,7 @@ namespace BTLayout02
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new StartPage());
+            MainPage = new NavigationPage(new Page01());
         }
 
         protected override void OnStart()

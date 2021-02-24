@@ -30,18 +30,29 @@
                     <Label Text="00:00:07" TextColor="Black" FontAttributes="Bold"/>
                 </StackLayout>
             </StackLayout>
-            <StackLayout AbsoluteLayout.LayoutBounds="1,.9,1,.4" AbsoluteLayout.LayoutFlags="All" Orientation="Vertical" 
-                        Spacing="20" Margin="20,0,0,20" VerticalOptions="Center">
-                <StackLayout Orientation="Horizontal">
-                    
-                    <controls:CircleImage Source="usa.png" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" BorderColor="Blue"  />
+            <StackLayout AbsoluteLayout.LayoutBounds="0,.63,350,100" AbsoluteLayout.LayoutFlags="PositionProportional" BackgroundColor="White" Margin="0,0">
+                <ListView x:Name="listview2" RowHeight="85" ItemSelected="listview2_ItemSelected">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Orientation="Horizontal">
 
-                    <StackLayout VerticalOptions="Center"  HorizontalOptions="StartAndExpand" Margin="15,0,0,0">
-                    <Label Text="12ms" TextColor="Gray"/>
-                    <Label Text="United States" TextColor="Black" FontAttributes="Bold"/>
-                </StackLayout>
-                <RadioButton IsChecked="True" IsEnabled="True" HorizontalOptions="End" Margin="0,0,20,0"/>
+                                    <controls:CircleImage Source="{Binding imageUrl}" WidthRequest="50" HeightRequest="50" Aspect="AspectFill" BorderColor="Blue"  Margin="20,0"/>
+
+                                    <StackLayout VerticalOptions="Center"  HorizontalOptions="StartAndExpand" Margin="15,0,0,0">
+                                        <Label Text="{Binding ms}" TextColor="Gray"/>
+                                        <Label Text="{Binding name}" TextColor="Black" FontAttributes="Bold"/>
+                                    </StackLayout>
+                                    <RadioButton IsChecked="True" IsEnabled="True" HorizontalOptions="End" Margin="0,0,20,0"/>
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
             </StackLayout>
+            <StackLayout AbsoluteLayout.LayoutBounds="1,1,400,300" AbsoluteLayout.LayoutFlags="PositionProportional" Orientation="Vertical" 
+                Spacing="20" Margin="0,0" VerticalOptions="Center">
+                
                 <StackLayout Orientation="Horizontal" Margin="0,60,0,0">
 
                     <controls:CircleImage Source="https://www.searchpng.com/wp-content/uploads/2019/09/Android-Loading-Icon-PNG-Image.jpg" WidthRequest="50" HeightRequest="50" Aspect="AspectFit" BorderColor="Blue"  />

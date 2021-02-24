@@ -26,5 +26,11 @@ namespace BTLayout02
             new Nation { name = "France", ms = "07ms", imageUrl = "https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png" },
              };
         }
+
+        private void listview_ItemSelected(object sender, SelectedItemChangedEventArgs e)
+        {
+            var chitiet = e.SelectedItem as Nation;
+            Navigation.PushAsync(new Page02(chitiet));
+        }
     }
 }

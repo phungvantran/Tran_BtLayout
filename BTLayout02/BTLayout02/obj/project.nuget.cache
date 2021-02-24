@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CJK7k1zq1jsBH/a5bIb1lIiaBqd1VeZfGynVVINC1mUsxlfHM5zDj1b5A6oBW8pO0HOSPyc6uZmLhPZfOZqMZw==",
+  "dgSpecHash": "zAf6bqB/VdHZDmv17rgvauO0yylLdYvdqo8CMm3nKpIXgoD3lpvnYxCTXlaVqCae95KlWNfHkV2tHStSHnt/vQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\84398\\source\\repos\\BTLayout02\\BTLayout02\\BTLayout02.csproj",
+  "projectFilePath": "C:\\Users\\84398\\Desktop\\Tran_BtLayout\\BTLayout02\\BTLayout02\\BTLayout02.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
