@@ -16,9 +16,6 @@ C:\Users\84398\source\repos\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\ref\B
 C:\Users\84398\source\repos\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\BTLayout02.pdb
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\BTLayout02.csprojAssemblyReference.cache
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\Page01.xaml.g.cs
-C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\Page02.xaml.g.cs
-C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\StartPage.xaml.g.cs
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\BTLayout02.AssemblyInfoInputs.cache
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\BTLayout02.AssemblyInfo.cs
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\BTLayout02.csproj.CoreCompileInputs.cache
@@ -30,3 +27,5 @@ C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\bin\Debug\netstandard
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\bin\Debug\netstandard2.0\ref\BTLayout02.dll
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\bin\Debug\netstandard2.0\BTLayout02.pdb
 C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\Views\Page01.xaml.g.cs
+C:\Users\84398\Desktop\Tran_BtLayout\BTLayout02\BTLayout02\obj\Debug\netstandard2.0\Views\Page02.xaml.g.cs

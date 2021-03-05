@@ -6,6 +6,7 @@ namespace BTLayout02
 {
     public partial class App : Application
     {
+        public static string test;
         public App()
         {
             InitializeComponent();
